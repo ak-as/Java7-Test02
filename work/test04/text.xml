@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<items>
+	<item name="del1" disabled="false" type="file" dir="C:\Users\Akira\Downloads\01_未整理" pattern="(20\\d{6})" />
+	<item name="del2" disabled="true" type="directory"
+			dir="C:\Users\Akira\Downloads\01_未整理"
+			pattern="(20\\d{6})"
+			group-index="0"
+			date-format="yyyyMMdd"
+			/>
+</items>
