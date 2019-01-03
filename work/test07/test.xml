@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entries>
+	<entry
+			name="del1"
+			disabled="false"
+			type="file"
+			dir="C:\Users\Akira\Downloads\01_未整理"
+			pattern="(20\\d{6})"
+			/>
+
+	<entry
+			name="del2"
+			disabled="true"
+			directory="C:\Users\Akira\Downloads\01_未整理"
+			file-filter="directory"
+			directory-filter="directory"
+			date-pattern="(20\\d{6})"
+			date-format="yyyyMMdd"
+			group-index="0"
+			cutoff="true"
+			recursive="true"
+			/>
+
+</entries>

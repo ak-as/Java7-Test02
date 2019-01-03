@@ -1,0 +1,22 @@
+
+var a = DateUtils.parseDate('20190101', 'yyyyMMdd');
+System.out.println('a : ' + a.toLocaleString());
+
+var b = DateUtils.parseDate('20190102', 'yyyyMMdd');
+System.out.println('b : ' + b.toLocaleString());
+
+System.out.println('a == b : ' + (a == b));
+System.out.println('a != b : ' + (a != b));
+System.out.println('a <  b : ' + (a <  b));
+System.out.println('a >  b : ' + (a >  b));
+
+Class.forName('java.lang.Math').abs(-1.5);
+
+System.out.println(`a = ${a}`);
+System.out.println(`b = ${b}`);
+
+System:getProperty('user.dir');
+
+
+
+
